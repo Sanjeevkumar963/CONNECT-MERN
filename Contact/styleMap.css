@@ -1,0 +1,59 @@
+*
+{
+    font-family: sans-serif;
+}
+.backgroundVideo 
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+header
+{
+    position:relative;
+    font-size:x-large;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    z-index: 99;
+    background-color: transparent;
+    border: 2px solid #8f91a97c;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    justify-items: center;
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    margin-bottom: 30px;
+    
+}
+
+.map
+{
+    width: 41%;
+    padding-left: 10%;
+    margin: auto;
+}
+
+svg path
+{
+    fill: #3f3f3f;
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 1s;
+    cursor: pointer;
+}
+
+
+svg path:hover
+{
+    fill: aliceblue;
+}

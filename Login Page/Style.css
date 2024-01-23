@@ -23,6 +23,7 @@ body{
     background-size: cover;
     background-position: center;
   }
+  
 header
 {
     position: fixed;
@@ -92,6 +93,28 @@ header
 }
 
 .navigation .loginbutton:hover
+{
+    background: #fff;
+    color:#162938;
+}
+
+
+.center-content .contactButton
+{
+    width: 180px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.center-content .contactButton:hover
 {
     background: #fff;
     color:#162938;

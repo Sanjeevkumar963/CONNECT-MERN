@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.png" type="image/png" sizes="16x16" />
+    <title>C O N N E C T</title>
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="row">
+        <aside class="col left">
+          <a href="./" class="logo">
+            C O N N E C T
+          </a>
+        </aside>
+        <aside class="col center">
+          <nav class="nav">
+            <a href="./#" class="link">
+              <i class="icon fas fa-home"></i>
+            </a>
+
+            <a href="./#" class="link">
+              <i class="icon fas fa-bell"></i>
+              <span class="counter">10</span>
+            </a>
+            <a href="../Chatbox/index-dark.html" class="link">
+              <i class="icon fas fa-envelope"></i>
+              <span class="counter">70</span>
+            </a>
+            <a href="./#" class="link">
+              <i class="icon fas fa-video"></i>
+              <span class="counter">50</span>
+            </a>
+          </nav>
+        </aside>
+        <aside class="col right">
+          <form class="searchForm">
+            <label for="searchBox">
+              <i class="fas fa-search"></i>
+            </label>
+            <input type="search" placeholder="Search here..." id="searchBox" />
+          </form>
+          <div class="profile">
+            <img src="./images/profile-pic.png" alt="profile-pic" class="img" />
+            <i
+              class="fas fa-ellipsis-h icon"
+              title="Profile Settings"
+              id="settingsMenuIcon"
+            ></i>
+          </div>
+        </aside>
+        <nav class="navSetting">
+          <a href="./#" class="block">
+            <img
+              src="./images/profile-pic.png"
+              alt="profile-pic"
+              class="icon"
+            />
+            <div class="right">
+              <aside>
+                <h4 class="title">Sanjeevkumar A</h4>
+                <span class="help">see your profile</span>
+              </aside>
+            </div>
+          </a>
+          <a href="./#" class="block">
+            <i class="fas fa-star icon"></i>
+            <div class="right">
+              <aside>
+                <h4 class="title">give feedback</h4>
+                <span class="help">help us to improve our app</span>
+              </aside>
+            </div>
+          </a>
+          <div class="options">
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-cog icon"></i>
+                <h4 class="title">Settings & privacy</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-question icon"></i>
+                <h4 class="title">help & support</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-tv icon"></i>
+                <h4 class="title">display & accessibility</h4>
+              </div>
+              <div class="right">
+                <i class="fas fa-chevron-right icon"></i>
+              </div>
+            </a>
+            <a href="./#" class="option">
+              <div class="left">
+                <i class="fas fa-moon icon"></i>
+                <h4 class="title">dark mode</h4>
+              </div>
+              <div class="right">
+                <aside class="themeBtn">
+                  <span class="circle dark"></span>
+                </aside>
+              </div>
+            </a>
+            <a href="..//Login Page/Login Page.html" class="option">
+              <div class="left">
+                <i class="fas fa-sign-out-alt icon"></i>
+                <h4 class="title">logout</h4>
+              </div>
+            </a>
+          </div>
+          <nav class="footerLinks">
+            <a href="./#" class="link">about</a>
+            <a href="./#" class="link">privacy</a>
+            <a href="./#" class="link">terms</a>
+            <a href="./#" class="link">cookies</a>
+            <a href="./#" class="link">advertisement</a>
+            <a href="./#" class="link">more</a>
+            <span>copyright &copy; 2024. C O N N E C T</span>
+          </nav>
+        </nav>
+      </div>
+    </header>
+    <section class="iconNav" id="iconNav">
+      <nav class="navContainer left">
+        <a href="./#" class="link"><i class="icon fas fa-user"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-home"></i> </a>
+        <a href="./#" class="link"><i class="fab fa-deezer"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-user-friends"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-pager"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-gamepad"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-video"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-heart"></i> </a>
+        <a href="./#" class="link"><i class="icon fas fa-calendar-alt"></i> </a>
+        <a href="./#" class="link"
+          ><i class="icon fab fa-facebook-messenger"></i
+        ></a>
+      </nav>
+    </section>
+    <section class="leftSidebar" id="leftSidebar">
+      <div class="row">
+        <a href="./#profile" class="profile">
+          <img src="./images/profile-pic.png" alt="member-1" class="img" />
+          <span class="name">Sanjeevkumar A</span>
+        </a>
+        <nav class="navLinks">
+          <a href="./#videos" class="link">
+            <i class="fab fa-deezer icon"></i>
+            <span class="name">Most recent</span>
+          </a>
+
+          <a href="./#videos" class="link">
+            <i class="fas fa-user-friends icon"></i>
+            <span class="name">friends</span>
+          </a>
+
+          <a href="./#videos" class="link">
+            <i class="fas fa-layer-group icon"></i>
+            <span class="name">groups</span>
+          </a>
+          <a href="./#videos" class="link">
+            <i class="fas fa-pager icon"></i>
+            <span class="name">pages</span>
+          </a>
+          <a href="./#videos" class="link">
+            <i class="fas fa-video icon"></i>
+            <span class="name">videos</span>
+          </a>
+          <a class="link">
+            <i class="fas fa-chevron-down icon"></i>
+            <span class="name">see more</span>
+          </a>
+        </nav>
+      </div>
+      <div class="row">
+        <h3 class="boxTitle">
+          My Favorites
+          <i class="fas fa-edit icon" title="Edit"></i>
+        </h3>
+        <nav class="navLinks">
+          <a href="./#" class="link">
+            <img src="./images/shortcut-3.png" alt="shortcut-1" class="img" />
+            <span class="name">Conservation</span>
+          </a>
+          <a href="./#" class="link">
+            <img src="./images/shortcut-4.png" alt="shortcut-1" class="img" />
+            <span class="name">Disaster Rescue</span>
+          </a>
+          <a href="./#" class="link">
+            <img src="./images/shortcut-1.png" alt="shortcut-1" class="img" />
+            <span class="name">Healthcare Volunteering</span>
+          </a>
+          <a href="./#" class="link">
+            <img src="./images/shortcut-1.png" alt="shortcut-1" class="img" />
+            <span class="name">Education Development</span>
+          </a>
+          <a href="./#" class="link">
+            <img src="./images/shortcut-2.png" alt="shortcut-2" class="img" />
+            <span class="name">Community Development</span>
+          </a>
+          <a class="link">
+            <i class="fas fa-chevron-down icon"></i>
+            <span class="name">see more</span>
+          </a>
+        </nav>
+      </div>
+    </section>
+    <section class="rightSidebar" id="rightSidebar">
+      <div class="row">
+        <h3 class="title">
+          Events
+          <a href="./#" class="link" title="See all"
+            ><i class="fas fa-eye icon"></i
+          ></a>
+        </h3>
+        <div class="boxContainer">
+          <article class="box">
+            <div class="date">
+              <h4 class="day">01</h4>
+              <h5 class="month">February</h5>
+            </div>
+            <div class="content">
+              <h3 class="title">Plantation Day</h3>
+              <p class="location">
+                <i class="fas fa-map-marker-alt icon"></i>
+                Rotract Club
+              </p>
+              <a href="./#read-more" class="readMore">read more</a>
+            </div>
+          </article>
+          <article class="box">
+            <div class="date">
+              <h4 class="day">10</h4>
+              <h5 class="month">March</h5>
+            </div>
+            <div class="content">
+              <h3 class="title">Education Awarness</h3>
+              <p class="location">
+                <i class="fas fa-map-marker-alt icon"></i>
+                Le Méridien, Coimbatore
+              </p>
+              <a href="./#read-more" class="readMore">read more</a>
+            </div>
+          </article>
+          <article class="box">
+            <div class="date">
+              <h4 class="day">22</h4>
+              <h5 class="month">March</h5>
+            </div>
+            <div class="content">
+              <h3 class="title">Mental Health and Awarness</h3>
+              <p class="location">
+                <i class="fas fa-map-marker-alt icon"></i>
+                Radisson Blu, Coimbatore
+              </p>
+              <a href="./#read-more" class="readMore">read more</a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="contact">
+        <h3 class="title">
+          contacts
+          <span class="icons">
+            <i class="fas fa-video icon" title="Video call"></i>
+            <i class="fas fa-search icon" title="Search"></i>
+            <i class="fas fa-ellipsis-h icon" title="Settings"></i>
+          </span>
+        </h3>
+        <div class="boxContainer">
+          <article class="box">
+            <img src="./images/member-4.png" alt="member-4" class="img" />
+            <h4 class="name">Surya S</h4>
+          </article>
+          <article class="box">
+            <img src="./images/member-3.png" alt="member-4" class="img" />
+            <h4 class="name">Shreyas</h4>
+          </article>
+          <article class="box">
+            <img src="./images/member-2.png" alt="member-4" class="img" />
+            <h4 class="name">Yashwanth N</h4>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="main" id="main">
+      <div class="container">
+        <div class="stories">
+          <article class="story">
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/status-1.png" alt="status-1" class="img"
+            /></a>
+            <a href="./#create-story" class="createStoryBtn">
+              <i class="fas fa-plus"></i>
+            </a>
+            <a class="name">create story</a>
+          </article>
+
+          <article class="story">
+            <img src="./images/status-2.png" alt="status-2" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/status-2.png" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">Surya</a>
+          </article>
+
+          <article class="story">
+            <img src="./images/status-3.png" alt="status-3" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/status-3.png" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">Shreyas</a>
+          </article>
+
+          <article class="story">
+            <img src="./images/status-4.png" alt="status-4" class="avatar" />
+            <a href="./#stories" class="linkStory"
+              ><img src="./images/status-4.png" alt="status-1" class="img"
+            /></a>
+            <a href="./#profile" class="name">Yashwanth</a>
+          </article>
+        </div>
+        <div class="post">
+          <div class="content">
+            <img
+              src="./images/profile-pic.png"
+              alt="profile-pic"
+              class="avatar"
+            />
+            <input
+              type="text"
+              class="textBox"
+              placeholder="what's on your mind, Sanjeevkumar A?"
+            />
+          </div>
+          <div class="features">
+            <div class="feature">
+              <i class="fas fa-video icon" title="Live Video"></i>
+              <span class="name hidden">live video</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-photo-video icon" title="Photo/Video"></i>
+              <span class="name hidden">photo/ video</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-grin icon" title="Feeling/Activity"></i>
+              <span class="name hidden">feeling/activity</span>
+            </div>
+          </div>
+        </div>
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/profile-pic.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name">
+                  Sanjeevkumar A
+                  <i class="fas fa-check-circle icon"></i>
+                </a>
+                <p class="time">10 july 2023, 04:30PM</p>
+              </div>
+            </div>
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              ✨ Today was a truly fulfilling day as our team came together to make a positive impact on young lives! We had the incredible opportunity to donate books and stationery to children in need, emphasizing the profound importance of education. Witnessing the smiles and excitement on their faces was truly heartwarming. 🌟
+              <a href="#" class="link">#CONNECT</a>
+              <a href="#" class="link">#Volunteering</a>
+            </p>
+            <img src="./images/feed-image-1.png" alt="news" class="img" />
+          </div>
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                Surya & 100 others
+              </article>
+
+              <div class="others">
+                <article class="box">50 comments</article>
+                <article class="box">30 share</article>
+              </div>
+            </div>
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/member-1.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Shibi Raj </a>
+                <p class="time">05 july 2023, 08:30PM</p>
+              </div>
+            </div>
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              Thrilled to share the success of our recent cycling rally organized by our team. 🌟
+              <a href="#" class="link">#CONNECT </a>
+              <a href="#" class="link">#CycleRally</a>
+              <a href="#" class="link">#Volunteering</a>
+            </p>
+            <img src="./images/feed-image-2.png" alt="news" class="img" />
+          </div>
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                Thina & 2K others
+              </article>
+
+              <div class="others">
+                <article class="box">10 comments</article>
+                <article class="box">5 share</article>
+              </div>
+            </div>
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/member-3.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name">
+                  Shreyas
+                  <i class="fas fa-check-circle icon"></i>
+                </a>
+                <p class="time">10 july 2023, 04:30PM</p>
+              </div>
+            </div>
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+               Our team took the initiative to enhance the city's green cover by planting saplings in various areas. 🌳 Excited to contribute to a healthier and more sustainable environment! 🌍 #GreenCity
+              <a href="#" class="link">#CONNECT </a>
+              <a href="#" class="link">#Environment</a>
+            </p>
+            <img src="./images/feed-image-3.png" alt="news" class="img" />
+          </div>
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                Sanjeevkumar A & 1K others
+              </article>
+
+              <div class="others">
+                <article class="box">11 comments</article>
+                <article class="box">51 share</article>
+              </div>
+            </div>
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="postPublished">
+          <header class="top">
+            <div class="user">
+              <img
+                src="./images/member-4.png"
+                alt="profile-pic"
+                class="avatar"
+              />
+              <div class="info">
+                <a href="./#profile" class="name"> Surya </a>
+                <p class="time">05 june 2023, 08:30PM</p>
+              </div>
+            </div>
+            <div class="actions">
+              <i class="fas fa-ellipsis-v icon"></i>
+            </div>
+          </header>
+          <div class="content">
+            <p class="text">
+              Excited to share the impactful rally our team conducted to raise awareness about the importance of following traffic rules! 
+              <a href="#" class="link">#CONNECT </a>
+              <a href="#" class="link">#TrafficAwarness</a>
+              <a href="#" class="link">#SafeRiding</a>
+            </p>
+            <img src="./images/feed-image-4.png" alt="news" class="img" />
+          </div>
+          <div class="bottom">
+            <div class="after">
+              <article class="likes">
+                <i class="fas fa-thumbs-up icon"></i>
+                <i class="fas fa-angry icon"></i>
+                <i class="fas fa-sad-cry icon"></i>
+                Yashwanth & 200 others
+              </article>
+
+              <div class="others">
+                <article class="box">60 comments</article>
+                <article class="box">55 share</article>
+              </div>
+            </div>
+            <div class="before">
+              <div class="box">
+                <i class="fas fa-thumbs-up icon"></i>
+                like
+              </div>
+              <div class="box">
+                <i class="fas fa-comment-alt icon"></i>
+                comment
+              </div>
+              <div class="box">
+                <i class="fas fa-share-square icon"></i>
+                share
+              </div>
+              <div class="box">
+                <img
+                  src="./images/profile-pic.png"
+                  alt="profile-pic"
+                  class="avatar"
+                />
+                <i class="fas fa-caret-down icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="loadMore">
+          <i class="fas fa-spinner icon" title="Loading More..."></i>
+        </div>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
